@@ -12,6 +12,12 @@ struct SidebarApp: App {
     var body: some Scene {
         WindowGroup {
             SidebarView()
+            
+        }
+        
+        Settings {
+            SettingsView()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
     }
 }

@@ -35,6 +35,15 @@ struct SidebarView: View {
                     
                     Text("Simple label")
                 }
+                
+                #if os(iOS)
+                NavigationLink(
+                    destination: SettingsView(),
+                    label: {
+                        Label("Settings", systemImage: "gearshape")
+                            .foregroundColor(.pink)
+                    })
+                #endif
             }
             .listStyle(SidebarListStyle())
             

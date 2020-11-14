@@ -17,6 +17,8 @@
 		E7031079255FD3A50089D984 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7031078255FD3A50089D984 /* Preview Assets.xcassets */; };
 		E7031082255FD3BF0089D984 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7031056255FC4A10089D984 /* ContentView.swift */; };
 		E7031083255FD3BF0089D984 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7031067255FC84C0089D984 /* SidebarView.swift */; };
+		E703108C25600A520089D984 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E703108B25600A520089D984 /* SettingsView.swift */; };
+		E703108F256010610089D984 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E703108B25600A520089D984 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,7 @@
 		E7031078255FD3A50089D984 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E703107A255FD3A50089D984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7031088255FD7310089D984 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E703108B25600A520089D984 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 		E703106A255FD3870089D984 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				E703108B25600A520089D984 /* SettingsView.swift */,
 				E7031056255FC4A10089D984 /* ContentView.swift */,
 				E7031067255FC84C0089D984 /* SidebarView.swift */,
 			);
@@ -222,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7031057255FC4A10089D984 /* ContentView.swift in Sources */,
+				E703108C25600A520089D984 /* SettingsView.swift in Sources */,
 				E7031068255FC84C0089D984 /* SidebarView.swift in Sources */,
 				E7031055255FC4A10089D984 /* SidebarApp.swift in Sources */,
 			);
@@ -232,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7031082255FD3BF0089D984 /* ContentView.swift in Sources */,
+				E703108F256010610089D984 /* SettingsView.swift in Sources */,
 				E7031083255FD3BF0089D984 /* SidebarView.swift in Sources */,
 				E7031072255FD3A30089D984 /* Sidebar_iOSApp.swift in Sources */,
 			);
