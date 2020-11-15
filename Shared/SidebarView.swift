@@ -28,7 +28,10 @@ struct SidebarView: View {
                             destination: ContentView(item: item),
                             tag: item,
                             selection: $selection,
-                            label: { Label(item.title, systemImage: "folder") })
+                            label: {
+                                Label(item.title, systemImage: "folder")
+                                    .labelStyle(SidebarItemStyle(color: .blue))
+                            })
                     }
                     
                     Divider()
@@ -41,11 +44,12 @@ struct SidebarView: View {
                     destination: SettingsView(),
                     label: {
                         Label("Settings", systemImage: "gearshape")
-                            .foregroundColor(.pink)
+                            .labelStyle(SidebarItemStyle(color: .pink))
                     })
                 #endif
             }
             .listStyle(SidebarListStyle())
+            .listItemTint(.red)
             
             .toolbar {
                 ToolbarItem(placement: .status) {

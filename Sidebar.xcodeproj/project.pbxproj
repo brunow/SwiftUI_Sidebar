@@ -19,6 +19,8 @@
 		E7031083255FD3BF0089D984 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7031067255FC84C0089D984 /* SidebarView.swift */; };
 		E703108C25600A520089D984 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E703108B25600A520089D984 /* SettingsView.swift */; };
 		E703108F256010610089D984 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E703108B25600A520089D984 /* SettingsView.swift */; };
+		E703109325601A8A0089D984 /* SidebarItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E703109225601A8A0089D984 /* SidebarItemStyle.swift */; };
+		E703109425601A8A0089D984 /* SidebarItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E703109225601A8A0089D984 /* SidebarItemStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,7 @@
 		E703107A255FD3A50089D984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7031088255FD7310089D984 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E703108B25600A520089D984 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E703109225601A8A0089D984 /* SidebarItemStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarItemStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 				E703108B25600A520089D984 /* SettingsView.swift */,
 				E7031056255FC4A10089D984 /* ContentView.swift */,
 				E7031067255FC84C0089D984 /* SidebarView.swift */,
+				E703109225601A8A0089D984 /* SidebarItemStyle.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -229,6 +233,7 @@
 				E703108C25600A520089D984 /* SettingsView.swift in Sources */,
 				E7031068255FC84C0089D984 /* SidebarView.swift in Sources */,
 				E7031055255FC4A10089D984 /* SidebarApp.swift in Sources */,
+				E703109325601A8A0089D984 /* SidebarItemStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +245,7 @@
 				E703108F256010610089D984 /* SettingsView.swift in Sources */,
 				E7031083255FD3BF0089D984 /* SidebarView.swift in Sources */,
 				E7031072255FD3A30089D984 /* Sidebar_iOSApp.swift in Sources */,
+				E703109425601A8A0089D984 /* SidebarItemStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
